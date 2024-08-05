@@ -1,0 +1,76 @@
+element.style {
+    background: #1b1b1b; /* Fundo preto */
+    color: #ffd700; /* Texto dourado */
+}
+
+body {
+    color: #ffd700; /* Texto dourado */
+    display: block;
+    background: #1b1b1b; /* Fundo preto */
+    margin: 40px;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+header {
+    border-bottom: solid 5px #ffd700; /* Linha dourada */
+    padding: 20px;
+    font-size: 60px;
+    color: #b22222; /* Vermelho sangue */
+    text-align: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 50px;
+    color: #ffd700; /* Dourado */
+}
+
+h2 {
+    font-size: 40px;
+    font-family: "Chakra Petch", sans-serif;
+    color: #ffd700; /* Dourado */
+}
+
+p {
+    font-size: 20px;
+    color: #d3d3d3; /* Cinza claro */
+}
+
+img {
+    height: 150px;
+}
+
+.chamada {
+    background: #1b1b1b; /* Preto */
+    padding-bottom: 80px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #4b0082; /* Índigo escuro */
+    padding-bottom: 20px;
+}
+
+.categoria-videos a {
+    text-align: center;
+    color: #ffd700; /* Dourado */
+    text-decoration: none;
+}
+
+.categoria-videos a p {
+    margin-top: 10px;
+    color: #ffd700; /* Dourado */
+}
